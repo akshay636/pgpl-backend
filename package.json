@@ -1,0 +1,47 @@
+{
+  "name": "pgpl-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch ./services --exec ts-node ./services/server.ts",
+    "start": "ts-node ./services/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.12.6",
+    "ajv-error-messages": "^1.0.3",
+    "ajv-errors": "^1.0.1",
+    "axios": "^1.6.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.6.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4-lts.1",
+    "mysql2": "^2.3.3",
+    "node-fetch": "^2.7.0",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.7",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.1",
+    "pincode-distance": "^1.0.2",
+    "redis": "^4.6.10",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.34.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@types/node-schedule": "^2.1.3",
+    "nodemon": "^2.0.22",
+    "npm-check-updates": "^16.14.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "esnext","dom"
+    ],
+    "types": ["node", "node-schedule"],
+    "target": "es2017",
+    "module":"CommonJs",
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "outDir": "lib",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "typeRoots" : ["node_modules/@types", "node_modules/**/*.d.ts"],
+    "esModuleInterop": true,
+  },
+  "exclude": [
+    "node_modules",
+  ]
+}
